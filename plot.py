@@ -62,7 +62,7 @@ def plot_data(data : dict) -> None:
 	date = data["date"]
 	data.pop("date")
 
-	plt.title("Progression de Victor dans le classement parcoursup 2022")
+	plt.title("Progression dans le classement parcoursup 2022")
 	
 	ax = plt.subplot(111)
 	plt.xlabel("Date")
